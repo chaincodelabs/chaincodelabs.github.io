@@ -1,8 +1,8 @@
 - title: "SEMINAR"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  description: The Chaincode Research Seminar exists to foster and encourage collaboration between the open-source community, industry, and academia towards research advances that benefit Bitcoin. See <a href="http://research.chaincode.com/research-award">the award page</a> for more information.
   image: assets/images/chaincode-logo-yellow-100x100.png
   alt: Picture of Chaincode Logo
 - title: "AWARD"
-  description:  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  description: The Bitcoin research prize is awarded to recognize outstanding results that advance Bitcoin and the Lightning Network. The results can be in cryptography, theoretical computer science, network theory, economics and neighboring fields. A committee of leading researchers will choose the winners annually. See <a href="http://research.chaincode.com/research-seminar">the seminar page</a> for more information and updates.  
   image: assets/images/chaincode-logo-yellow-100x100.png
   alt: Picture of Chaincode Logo
