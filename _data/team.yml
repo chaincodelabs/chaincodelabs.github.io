@@ -61,10 +61,10 @@
   alt: Picture of Nikki Sigurdson
 - name: Sergi Delgado
   title: Engineer
-  description: Sergi got involved in Bitcoin in 2015 as part of his master's. He spent the upcoming years doing research on various aspects of Bitcoin with a special focus on P2P networks. He got his PhD in Computer Science from the Autonomous University of Barcelona in 2018. After a year in London working as a Postdoctoral Researcher at UCL he transitioned from research to software development. He has been working on developing and maintaining <a href="https://github.com/talaia-labs/rust-teos" target="_blank">The Eye of Satoshi</a> (a node-agnostic watchtower implementation) since 2019 as a <a href="https://spiral.xyz" target="_blank">Spiral</a> grantee. 
+  description: Sergi got involved in Bitcoin in 2015 as part of his master's degree program. He spent the following years researching various aspects of Bitcoin with a focus on P2P networks. He received his Ph.D. in Computer Science from the Autonomous University of Barcelona in 2018 and after a year in London working as a Postdoctoral Researcher at UCL, he transitioned from research to software development. Since 2019, Sergi has been developing and maintaining <a href="https://github.com/talaia-labs/rust-teos" target="_blank">The Eye of Satoshi</a>, a node-agnostic watchtower implementation.
   social: "@sr_gi"
   link: https://twitter.com/sr_gi
-  image: assets/images/sergi.jpg
+  image: assets/images/sergi.jpeg
   alt: Picture of Sergi Delgado
 - name: Gurwinder Sahota
   title: Operations Associate
