@@ -21,7 +21,7 @@
   alt: Picture of Pieter Wuille
 - name: Clara Shikhelman
   title: Head of Research
-  description: Clara is researching the theoretical aspects of Bitcoin both from computer science and economic perspectives. Previously she was a postdoc at the Simons Institute at Berkley and at Caltech. Clara holds a PhD in mathematics from Tel Aviv University.
+  description: Clara is researching the theoretical aspects of Bitcoin both from computer science and economic perspectives. Previously she was a postdoc at the Simons Institute at Berkeley and at Caltech. Clara holds a PhD in mathematics from Tel Aviv University.
   social: "@ClaraShik"
   link: https://twitter.com/ClaraShik
   image: assets/images/Clara.jpg
@@ -92,7 +92,7 @@
   alt: Picture of Gurwinder Sahota
 - name: Adam Jonas
   title: CEO
-  description: In addition to recruiting, he spearheads multiple educational initiatives, including the <a href="http://residency.chaincode.com" target="_blank" rel="noopener">Chaincode Residency</a>. Jonas works on providing the <a href="https://learning.chaincode.com" target="_blank" rel="noopener">resources</a> contributors need to make an impact on Bitcoin and <a href="https://chaincode.gitbook.io/seminars/lightning-protocol-development" target="_blank" rel="noopener">related technologies</a>. He previously worked as a software engineer and manager after transitioning from his former role developing the talents of professional baseball players.
+  description: In addition to recruiting, Jonas spearheads multiple <a href="https://learning.chaincode.com" target="_blank" rel="noopener">educational initiatives</a> focused on helping contributors make an impact on <a href="https://chaincode.gitbook.io/seminars/bitcoin-protocol-development" target="_blank" rel="noopener">bitcoin</a> and <a href="https://chaincode.gitbook.io/seminars/lightning-protocol-development" target="_blank" rel="noopener">related technologies</a>. He previously worked as a software engineer and manager after transitioning from his former role developing the talents of professional baseball players.
   social: "@adamcjonas"
   link: https://twitter.com/adamcjonas
   image: assets/images/Jonas.jpeg
