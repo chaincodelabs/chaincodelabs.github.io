@@ -78,6 +78,13 @@
   link: https://twitter.com/glozow
   image: assets/images/gloria.png
   alt: Picture of Gloria Zhao
+- name: Nadav Kohen
+  title: Engineer
+  description: Nadav began Bitcoin research and development in 2018 at Suredbits focusing on applications of scripting and digital signature variants to improve privacy and expressivity of Bitcoin and Lightning transactions. He contributed to the development of the Discreet Log Contract specification and was a maintainer of the bitcoin-s library.
+  social: “@nadav_kohen”
+  link: https://twitter.com/nadav_kohen
+  image: assets/images/nadav.jpeg
+  alt: Picture of Nadav Kohen
 - name: Gurwinder Sahota
   title: Operations Associate
   description: Passionate about creating safe and welcoming work and learning environments, Gurwinder is committed to supporting, streamlining, and optimizing Chaincode Labs' educational initiatives and operational objectives. She enjoys creating inclusive spaces where everyone feels comfortable and appreciated. Previously, Gurwinder worked as an Assistant Site Director at a local educational non-profit organization. In her free time, Gurwinder enjoys weightlifting, rollerblading, and hiking.
