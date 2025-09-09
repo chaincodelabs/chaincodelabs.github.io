@@ -81,7 +81,7 @@
 - name: Nadav Kohen
   title: Engineer
   description: Nadav began Bitcoin research and development in 2018 at Suredbits focusing on applications of scripting and digital signature variants to improve privacy and expressivity of Bitcoin and Lightning transactions. He contributed to the development of the Discreet Log Contract specification and was a maintainer of the bitcoin-s library.
-  social: “@nadav_kohen”
+  social: "@nadav_kohen"
   link: https://twitter.com/nadav_kohen
   image: assets/images/nadav.jpeg
   alt: Picture of Nadav Kohen
