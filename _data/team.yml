@@ -45,13 +45,6 @@
   link: https://twitter.com/lightlike1
   image: assets/images/martin.jpg
   alt: Picture of Martin Zumsande
-- name: Sergi Delgado
-  title: Engineer
-  description: Sergi got involved in Bitcoin in 2015 as part of his master's degree program. He spent the following years researching various aspects of Bitcoin with a focus on P2P networks. He received his Ph.D. in Computer Science from the Autonomous University of Barcelona in 2018 and after a year in London working as a Postdoctoral Researcher at UCL, he transitioned from research to software development. Since 2019, Sergi has been developing and maintaining <a href="https://github.com/talaia-labs/rust-teos" target="_blank">The Eye of Satoshi</a>, a node-agnostic watchtower implementation.
-  social: "@sr_gi"
-  link: https://twitter.com/sr_gi
-  image: assets/images/sergi.jpeg
-  alt: Picture of Sergi Delgado
 - name: Matthew Zipkin
   title: Engineer
   description: Matthew discovered Bitcoin in 2013 and began developing software tools for the community right away. He built custom Bitcoin full nodes with artistic network visualizers called Bitcoin Block Clocks and encouraged users to run their own node and learn how to use it. Before joining Chaincode Labs, Matthew was a regular contributor and project maintainer of <a href="https://github.com/bcoin-org/bcoin" target="_blank">Bcoin</a>, a NodeJS Bitcoin library. He also enjoys participating in educational efforts like Summer of Bitcoin and Des Femmes.
