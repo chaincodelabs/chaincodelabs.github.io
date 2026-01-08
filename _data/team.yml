@@ -38,13 +38,6 @@
   link: https://twitter.com/actuallycarlakc
   image: assets/images/carla.png
   alt: Picture of Carla Kirk-Cohen
-- name: Martin Zumsande
-  title: Engineer
-  description: Martin started contributing to Bitcoin Core in 2019 and switched to full-time in late 2021. His main interest is in the peer-to-peer network of Bitcoin, in particular address relay. Before discovering Bitcoin, he received a PhD in physics and worked as a consultant in the banking industry.
-  social: "@lightlike1"
-  link: https://twitter.com/lightlike1
-  image: assets/images/martin.jpg
-  alt: Picture of Martin Zumsande
 - name: Matthew Zipkin
   title: Engineer
   description: Matthew discovered Bitcoin in 2013 and began developing software tools for the community right away. He built custom Bitcoin full nodes with artistic network visualizers called Bitcoin Block Clocks and encouraged users to run their own node and learn how to use it. Before joining Chaincode Labs, Matthew was a regular contributor and project maintainer of <a href="https://github.com/bcoin-org/bcoin" target="_blank">Bcoin</a>, a NodeJS Bitcoin library. He also enjoys participating in educational efforts like Summer of Bitcoin and Des Femmes.
@@ -64,13 +57,6 @@
   description: Matias is a software developer who has contributed to Bitcoin Core since 2022, focusing on bug fixes, client stability, and performance improvements across the codebase. He is particularly interested in applied mathematics and P2P network protocols. Prior to working on Bitcoin Core, he worked on several open-source projects with a primary focus on privacy research.
   image: assets/images/mfurszy.jpeg
   alt: Picture of Matias Furszyfer
-- name: Gloria Zhao
-  title: Engineer
-  description: Gloria developed an interest in Bitcoin while studying computer science at UC Berkeley and started contributing to Bitcoin Core in 2020. After graduation, she became the first grantee at Brink, where she worked on peer-to-peer transaction relay, mempool pinning attacks, and educational initiatives like Bitcoin Optech and Bitcoin Core PR Review Club.
-  social: "@glozow"
-  link: https://twitter.com/glozow
-  image: assets/images/gloria.png
-  alt: Picture of Gloria Zhao
 - name: Nadav Kohen
   title: Engineer
   description: Nadav began Bitcoin research and development in 2018 at Suredbits focusing on applications of scripting and digital signature variants to improve privacy and expressivity of Bitcoin and Lightning transactions. He contributed to the development of the Discreet Log Contract specification and was a maintainer of the bitcoin-s library.
