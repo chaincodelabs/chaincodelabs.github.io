@@ -64,7 +64,7 @@
   alt: Picture of Jonathan Harvey-Buschel
 - name: Caralie Chrisco
   title: Head of Operations
-  description: Caralie also serves as Head of Operations at Fulcrum Science and most recently worked in client strategies and marketing at Stone Ridge Holdings Group. She comes from the Bitcoin ecosystem, where she served as Program Director at Wolf, head of Gemini's open-source grant program, and People Operations Manager at Chaincode. She began her career as a talent manager, representing actors across theater, film, and television.
+  description: Caralie most recently worked in client strategies and marketing at Stone Ridge Holdings Group. She comes from the Bitcoin ecosystem, where she served as Program Director at Wolf, head of Gemini's open-source grant program, and People Operations Manager at Chaincode. She began her career as a talent manager, representing actors across theater, film, and television.
   image: assets/images/Caralie.jpg
   alt: Picture of Caralie Chrisco
 - name: Gurwinder Sahota
@@ -73,8 +73,8 @@
   image: assets/images/gurwinder.jpg
   alt: Picture of Gurwinder Sahota
 - name: Adam Jonas
-  title: Head of Special Projects
-  description: In addition to recruiting, Jonas spearheads multiple <a href="https://learning.chaincode.com" target="_blank" rel="noopener">educational initiatives</a> focused on helping contributors make an impact on <a href="https://chaincode.gitbook.io/seminars/bitcoin-protocol-development" target="_blank" rel="noopener">bitcoin</a> and <a href="https://chaincode.gitbook.io/seminars/lightning-protocol-development" target="_blank" rel="noopener">related technologies</a>. He previously worked as a software engineer and manager after transitioning from his former role developing the talents of professional baseball players.
+  title: Advisor
+  description: Jonas has spearheaded multiple educational initiatives focused on helping contributors make an impact on bitcoin and related technologies. He previously worked as a software engineer and manager after transitioning from his former role developing the talents of professional baseball players.
   social: "@adamcjonas"
   link: https://twitter.com/adamcjonas
   image: assets/images/Jonas.jpeg
