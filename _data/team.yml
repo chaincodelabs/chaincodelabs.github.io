@@ -17,20 +17,13 @@
   description: Pieter discovered Bitcoin in December 2010 and started contributing code to the project in May 2011. Since then, he has written significant parts of the reference client's code, in particular, to improve performance and code organization. In addition to authoring and co-authoring 16 <a href="https://github.com/bitcoin/bips/" target="_blank" rel="noopener">Bitcoin Improvement Proposals</a>, Pieter contributed to the design of <a href="http://bitcoin.sipa.be/miniscript/" target="_blank" rel="noopener">Miniscript</a>, and co-authored papers on <a href="https://eprint.iacr.org/2018/068" target="_blank" rel="noopener">MuSig</a> and <a href="https://eprint.iacr.org/2017/1066.pdf" target="_blank" rel="noopener">Bulletproof</a>, and contributed to libraries like <a href="https://github.com/bitcoin-core/secp256k1" target="_blank" rel="noopener">libsecp256k1</a>, <a href="https://github.com/bitcoin-core/ctaes" target="_blank" rel="noopener">ctaes</a>, and <a href="https://github.com/sipa/minisketch" target="_blank" rel="noopener">minisketch</a>. Before Chaincode, Pieter was a co-founder and Core Engineer at Blockstream and worked as a Site Reliability Engineer at Google. Pieter received his Ph.D. in Computer Science at the University of Leuven, where he focused on programming language design. In his free time, Pieter likes climbing and playing board games.
   image: assets/images/pieter-wuille.jpg
   alt: Picture of Pieter Wuille
-- name: Clara Shikhelman
-  title: Head of Research
-  description: Clara is researching the theoretical aspects of Bitcoin both from computer science and economic perspectives. Previously she was a postdoc at the Simons Institute at Berkeley and at Caltech. Clara holds a PhD in mathematics from Tel Aviv University.
-  social: "@ClaraShik"
-  link: https://twitter.com/ClaraShik
-  image: assets/images/Clara.jpg
-  alt: Picture of Clara Shikhelman
 - name: Russ Yanofsky
   title: Engineer
   description: Russ has done a lot of work to help separate Bitcoin Core's node, wallet and GUI components. His work to introduce well-defined <a href="https://github.com/bitcoin/bitcoin/pull/10973" target="_blank" rel="noopener">node-wallet</a> and <a href="https://github.com/bitcoin/bitcoin/pull/10244" target="_blank" rel="noopener">node-GUI</a> has been merged to the project, and he continues to work on a long-term goal to <a href="https://github.com/bitcoin/bitcoin/pull/10102" target="_blank" rel="noopener">run the components in different processes</a>. Russ previously worked on web search at Google and set-top video software at Videon Central, Inc.
   image: assets/images/Russ.jpeg
   alt: Picture of Russ Yanofsky
 - name: Carla Kirk-Cohen
-  title: Engineer
+  title: Executive Director
   description: Carla is a software engineer working on the implementation and improvement of the Lightning Network <a href="https://github.com/lightning/bolts" target="_blank">specification</a>. She got her start in Bitcoin development at the 2019 <a href="https://residency.chaincode.com" target="_blank">Chaincode Residency</a> and has been passionate about paying it forward to help onboard new bitcoin developers ever since. She previously worked at Lightning Labs, where she focused on reliability improvements to LND and led the submarine swap team.
   social: "@actuallycarlakc"
   link: https://twitter.com/actuallycarlakc
@@ -69,14 +62,19 @@
   link: https://twitter.com/jonhbit
   image: assets/images/jharveyb.jpg
   alt: Picture of Jonathan Harvey-Buschel
+- name: Caralie Chrisco
+  title: Head of Operations
+  description: Caralie most recently worked in client strategies and marketing at Stone Ridge Holdings Group. She comes from the Bitcoin ecosystem, where she served as Program Director at Wolf, head of Gemini's open-source grant program, and People Operations Manager at Chaincode. She began her career as a talent manager, representing actors across theater, film, and television.
+  image: assets/images/Caralie.jpg
+  alt: Picture of Caralie Chrisco
 - name: Gurwinder Sahota
   title: Operations Associate
   description: Passionate about creating safe and welcoming work and learning environments, Gurwinder is committed to supporting, streamlining, and optimizing Chaincode Labs' educational initiatives and operational objectives. She enjoys creating inclusive spaces where everyone feels comfortable and appreciated. Previously, Gurwinder worked as an Assistant Site Director at a local educational non-profit organization. In her free time, Gurwinder enjoys weightlifting, rollerblading, and hiking.
   image: assets/images/gurwinder.jpg
   alt: Picture of Gurwinder Sahota
 - name: Adam Jonas
-  title: CEO
-  description: In addition to recruiting, Jonas spearheads multiple <a href="https://learning.chaincode.com" target="_blank" rel="noopener">educational initiatives</a> focused on helping contributors make an impact on <a href="https://chaincode.gitbook.io/seminars/bitcoin-protocol-development" target="_blank" rel="noopener">bitcoin</a> and <a href="https://chaincode.gitbook.io/seminars/lightning-protocol-development" target="_blank" rel="noopener">related technologies</a>. He previously worked as a software engineer and manager after transitioning from his former role developing the talents of professional baseball players.
+  title: Advisor
+  description: Jonas has spearheaded multiple educational initiatives focused on helping contributors make an impact on bitcoin and related technologies. He previously worked as a software engineer and manager after transitioning from his former role developing the talents of professional baseball players.
   social: "@adamcjonas"
   link: https://twitter.com/adamcjonas
   image: assets/images/Jonas.jpeg
