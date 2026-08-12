@@ -1,20 +1,137 @@
 ---
 layout: default-with-background
-title: Projects | Chaincode Labs
+title: Our Work | Chaincode Labs
 ---
 
 <div class="projects-container">
-  {% for item in site.data.projects %}
-  <div class="projects-row">
+  <div class="page-intro">
+    <p>
+      Chaincode supports Bitcoin through open-source engineering, research, and
+      education.
+    </p>
+    <p>
+      Engineers and researchers at Chaincode are free to pursue the Bitcoin
+      open-source projects they believe are most important. Members of our team
+      have contributed to Bitcoin Core, the Lightning Network protocol, and
+      novel cryptography that is relevant to Bitcoin.
+    </p>
+    <p>
+      We also design and run educational programs that help current and future
+      contributors build the knowledge and skills needed to participate in
+      Bitcoin's development. Our goal is to support both the work being done
+      today and the people who will shape Bitcoin's future.
+    </p>
+    <p class="section-lead">The following projects represent some of our team's work:</p>
+  </div>
+
+  <div class="projects-row projects-row-first">
     <div class="image-column">
-      <img src="{{ item.image }}" alt="{{ item.alt }}" />
+      <img src="assets/images/bitcoin-white-100x100.png" alt="Picture of Bitcoin Logo with a White Background" />
     </div>
     <div class="text-column">
-      <h3 class="item-title">{{ item.title | upcase }}</h3>
+      <h3 class="item-title">BITCOIN CORE</h3>
       <h2 class="item-description">
-        {{ item.description }}
+        Chaincode engineers develop, review, test and maintain the
+        <a href="https://github.com/bitcoin/bitcoin" target="_blank" rel="noopener">reference Bitcoin implementation</a>.
       </h2>
     </div>
   </div>
-  {% endfor %}
+
+  <div class="projects-row">
+    <div class="image-column">
+      <img src="assets/images/bitcoinimp-130x130.png" alt="Picture of Bitcoin Improvement Proposals Logo" />
+    </div>
+    <div class="text-column">
+      <h3 class="item-title">BIPS</h3>
+      <h2 class="item-description">
+        Chaincode has contributed research and design to many
+        <a href="https://github.com/bitcoin/bips" target="_blank" rel="noopener">proposals to improve the Bitcoin Protocol</a>, such as Cluster Mempool,
+        <a href="https://github.com/bitcoin/bips/blob/9783d61f1b9c81231581fee026c8e8cb9499d265/bip-0431.mediawiki" target="_blank" rel="noopener">TRUC transactions</a>
+        and the
+        <a href="https://github.com/bitcoin/bips/blob/master/bip-0054.md" target="_blank" rel="noopener">Consensus Cleanup</a>.
+      </h2>
+    </div>
+  </div>
+
+  <div class="projects-row">
+    <div class="image-column">
+      <img src="assets/images/learninglogo.png" alt="Picture of Learning Logo" />
+    </div>
+    <div class="text-column">
+      <h3 class="item-title">LEARNING</h3>
+      <h2 class="item-description">
+        We run
+        <a href="https://bosschallenge.xyz/" target="_blank" rel="noopener">programming challenges</a>
+        for aspiring protocol developers to get their start in Bitcoin open
+        source contribution. We have also produced several learning resources,
+        including a
+        <a href="https://github.com/cryptography-camp" target="_blank" rel="noopener">provable cryptography</a>
+        workshop,
+        <a href="https://bitcoindevphilosophy.com/" target="_blank" rel="noopener">Bitcoin development philosophy</a>
+        book and
+        <a href="https://chaincode.gitbook.io/seminars" target="_blank" rel="noopener">self-paced</a>
+        protocol development seminars.
+      </h2>
+    </div>
+  </div>
+
+  <div class="projects-row">
+    <div class="image-column">
+      <img src="assets/images/chaincode-logo-yellow-100x100.png" alt="Chaincode Logo" />
+    </div>
+    <div class="text-column">
+      <h3 class="item-title">EVENTS</h3>
+      <h2 class="item-description">
+        Chaincode stewards
+        <a href="https://bitdevs.org/" target="_blank" rel="noopener">the original BitDevs meetup</a>,
+        hosting monthly technical discussions open to the Bitcoin community.
+      </h2>
+    </div>
+  </div>
+
+  <p class="section-lead section-lead-past">Some of our past projects include:</p>
+
+  <div class="projects-row">
+    <div class="image-column">
+      <img src="assets/images/optech-notext-100x100.png" alt="Picture of Bitcoin Optech Logo" />
+    </div>
+    <div class="text-column">
+      <h3 class="item-title">OPTECH</h3>
+      <h2 class="item-description">
+        <a href="https://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin Optech</a>
+        helps Bitcoin users and businesses keep up to date with developments
+        through its weekly newsletter.
+      </h2>
+    </div>
+  </div>
+
+  <div class="projects-row">
+    <div class="image-column">
+      <img src="assets/images/podcast-100x100.png" alt="Picture of Chaincode Podcast Logo" />
+    </div>
+    <div class="text-column">
+      <h3 class="item-title">PODCAST</h3>
+      <h2 class="item-description">
+        The
+        <a href="https://podcast.chaincode.com/" target="_blank" rel="noopener">Chaincode Podcast</a>
+        has interviews with the most influential Bitcoin engineers about Bitcoin
+        protocol development.
+      </h2>
+    </div>
+  </div>
+
+  <div class="projects-row">
+    <div class="image-column">
+      <img src="assets/images/chaincode-logo-yellow-100x100.png" alt="Chaincode Logo" />
+    </div>
+    <div class="text-column">
+      <h3 class="item-title">RESIDENCY</h3>
+      <h2 class="item-description">
+        Our
+        <a href="https://residency.chaincode.com/" target="_blank" rel="noopener">in-person residencies</a>
+        have launched the careers of many of the engineers working on Bitcoin
+        open source software today.
+      </h2>
+    </div>
+  </div>
 </div>

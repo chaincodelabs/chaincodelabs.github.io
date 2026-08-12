@@ -130,7 +130,7 @@ header {
   }
 }
 
-.projects-row:first-child .text-column {
+.projects-row-first .text-column {
   padding-top: 3rem;
   border-top: 1px solid white;
 }
@@ -203,9 +203,69 @@ header {
   font-size: 0.75rem;
 }
 
+.page-intro {
+  max-width: 54rem;
+  margin-left: 20%;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+  p {
+    margin-bottom: 1.2rem;
+  }
+}
+.section-lead {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+.page-intro p.section-lead {
+  margin-bottom: 0;
+}
+.publications {
+  max-width: 54rem;
+  margin-left: 20%;
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  ul {
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+  }
+  li {
+    margin-bottom: 0.6rem;
+  }
+  a {
+    color: $yellow;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+  }
+}
+.section-lead-past {
+  max-width: 54rem;
+  margin-left: 20%;
+  margin-top: 3.5rem;
+}
+
 .jobs-container {
   margin-left: 5rem;
   margin-right: 5rem;
+}
+
+.jobs-copy {
+  margin-top: 3rem;
+  max-width: 54rem;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+  p {
+    margin-bottom: 1.2rem;
+  }
+}
+.jobs-container .jobs-copy a {
+  color: $yellow;
+  text-decoration: none;
+}
+.jobs-container .jobs-copy a:hover {
+  color: white;
 }
 
 .department {
@@ -273,14 +333,6 @@ header {
   }
 }
 
-#first-row {
-  border-top: none;
-  border-bottom: 1px solid white;
-  padding-bottom: 2rem;
-  .about-contact {
-    color: white;
-  }
-}
 .about-icon {
   flex: 35%;
   img {
@@ -585,12 +637,12 @@ header {
         }
       }
     }
-    .projects-row:first-child .text-column {
+    .projects-row-first .text-column {
       border-top: none;
       padding-top: 0;
     }
   }
-  .projects-row:first-child {
+  .projects-row-first {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
   .blog-container {
@@ -629,6 +681,11 @@ header {
       }
     }
   }
+  .page-intro,
+  .publications,
+  .section-lead-past {
+    margin-left: 0;
+  }
 
   .jobs-container {
     margin-left: 0;
@@ -651,11 +708,6 @@ header {
         font-size: 1rem;
         width: auto;
         margin-right: 0;
-      }
-    }
-    #first-row {
-      .about-icon {
-        flex: 35%;
       }
     }
     .contact-row {
@@ -837,12 +889,12 @@ header {
         }
       }
     }
-    .projects-row:first-child .text-column {
+    .projects-row-first .text-column {
       border-top: none;
       padding-top: 0;
     }
   }
-  .projects-row:first-child {
+  .projects-row-first {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
   .blog-container {
@@ -887,6 +939,11 @@ header {
       }
     }
   }
+  .page-intro,
+  .publications,
+  .section-lead-past {
+    margin-left: 0;
+  }
 
   .jobs-container {
     margin-left: 0;
@@ -909,11 +966,6 @@ header {
         font-size: 1rem;
         width: auto;
         margin-right: 0;
-      }
-    }
-    #first-row {
-      .about-icon {
-        flex: 35%;
       }
     }
     .contact-row {
@@ -1091,12 +1143,12 @@ header {
         }
       }
     }
-    .projects-row:first-child .text-column {
+    .projects-row-first .text-column {
       border-top: none;
       padding-top: 0;
     }
   }
-  .projects-row:first-child {
+  .projects-row-first {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
   // .blog-container {
@@ -1160,6 +1212,11 @@ header {
       }
     }
   }
+  .page-intro,
+  .publications,
+  .section-lead-past {
+    margin-left: 0;
+  }
 
   .jobs-container {
     margin-left: 0;
@@ -1182,11 +1239,6 @@ header {
         font-size: 1rem;
         width: auto;
         margin-right: 0;
-      }
-    }
-    #first-row {
-      .about-icon {
-        flex: 35%;
       }
     }
     .contact-row {

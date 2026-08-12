@@ -4,17 +4,96 @@ title: Research | Chaincode Labs
 ---
 
 <div class="projects-container">
-  {% for item in site.data.research %}
-  <div class="projects-row">
+  <div class="page-intro">
+    <p>
+      Chaincode's research initiatives aim to support rigorous investigation of
+      the open questions and challenges facing Bitcoin. We seek to foster
+      greater engagement between Bitcoin and the academic community, helping
+      ensure that the strongest ideas and insights contribute to Bitcoin's
+      long-term development.
+    </p>
+  </div>
+
+  <div class="publications">
+    <p class="section-lead">Our team has worked on:</p>
+    <ul>
+      <li>
+        <a href="https://arxiv.org/abs/2607.23787" target="_blank" rel="noopener">Bitcoin Mempool Linearization</a>
+      </li>
+      <li>
+        <a href="https://eprint.iacr.org/2022/1454" target="_blank" rel="noopener">Unjamming Lightning: A Systematic Approach</a>
+      </li>
+      <li>
+        <a href="https://eprint.iacr.org/2026/223" target="_blank" rel="noopener">Nested MuSig2</a>
+      </li>
+      <li>
+        <a href="https://chaincode.com/bitcoin-post-quantum.pdf" target="_blank" rel="noopener">Bitcoin and quantum computing</a>
+      </li>
+      <li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3840374" target="_blank" rel="noopener">Lightning Network Economics: Channels</a>
+      </li>
+      <li>
+        <a href="https://arxiv.org/abs/1905.10518" target="_blank" rel="noopener">Bandwidth-Efficient Transaction Relay for Bitcoin</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="projects-row projects-row-first">
     <div class="image-column">
-      <img src="{{ item.image }}" alt="{{ item.alt }}" />
+      <img src="assets/images/chaincode-logo-yellow-100x100.png" alt="Chaincode Logo" />
     </div>
     <div class="text-column">
-      <h3 class="item-title">{{ item.title | upcase }}</h3>
+      <h3 class="item-title">RESEARCH DAY</h3>
       <h2 class="item-description">
-        {{ item.description }}
+        <a href="https://brd.chaincode.com/" target="_blank" rel="noopener">Bitcoin Research Day</a>
+        brings together researchers and practitioners to share academic work
+        that advances understanding of Bitcoin and its open challenges.
       </h2>
     </div>
   </div>
-  {% endfor %}
+
+  <div class="projects-row">
+    <div class="image-column">
+      <img src="assets/images/chaincode-logo-yellow-100x100.png" alt="Chaincode Logo" />
+    </div>
+    <div class="text-column">
+      <h3 class="item-title">RESEARCH PRIZE</h3>
+      <h2 class="item-description">
+        Each year, we award a
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzW2WEX3kPrL8-j1xI3gg9PgfCiOWeRuyutZ_q0y-XgiCYag/viewform" target="_blank" rel="noopener">Research Prize</a>
+        recognizing outstanding research that advances the state of the art in
+        Bitcoin.
+      </h2>
+    </div>
+  </div>
+
+  <div class="projects-row">
+    <div class="image-column">
+      <img src="assets/images/chaincode-logo-yellow-100x100.png" alt="Chaincode Logo" />
+    </div>
+    <div class="text-column">
+      <h3 class="item-title">BITCOIN SCHOLARSHIP</h3>
+      <h2 class="item-description">
+        Our
+        <a href="https://bitcoinscholarship.xyz/" target="_blank" rel="noopener">scholarship</a>
+        provides a full year's tuition to exceptional students who are committed
+        to contributing to Bitcoin open source research and development.
+      </h2>
+    </div>
+  </div>
+
+  <div class="projects-row">
+    <div class="image-column">
+      <img src="assets/images/chaincode-logo-yellow-100x100.png" alt="Chaincode Logo" />
+    </div>
+    <div class="text-column">
+      <h3 class="item-title">PHD INTERNSHIPS</h3>
+      <h2 class="item-description">
+        We are happy to host PhD students for summer research internships
+        relevant to our work. See our
+        <a href="/jobs">jobs page</a> for more information.
+      </h2>
+    </div>
+  </div>
+
 </div>
