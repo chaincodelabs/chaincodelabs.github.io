@@ -24,7 +24,7 @@
   alt: Picture of Russ Yanofsky
 - name: Carla Kirk-Cohen
   title: Executive Director
-  description: Carla is a software engineer working on the implementation and improvement of the Lightning Network <a href="https://github.com/lightning/bolts" target="_blank">specification</a>. She got her start in Bitcoin development at the 2019 <a href="https://residency.chaincode.com" target="_blank">Chaincode Residency</a> and has been passionate about paying it forward to help onboard new bitcoin developers ever since. She previously worked at Lightning Labs, where she focused on reliability improvements to LND and led the submarine swap team.
+  description: Carla is a software engineer working on the implementation and improvement of the Lightning Network <a href="https://github.com/lightning/bolts" target="_blank">specification</a>. She got her start in Bitcoin development at the 2019 <a href="https://residency.chaincode.com" target="_blank">Chaincode Residency</a> and has been passionate about paying it forward to help onboard new Bitcoin developers ever since. She previously worked at Lightning Labs, where she focused on reliability improvements to LND and led the submarine swap team.
   social: "@actuallycarlakc"
   link: https://twitter.com/actuallycarlakc
   image: assets/images/carla.png
@@ -74,7 +74,7 @@
   alt: Picture of Gurwinder Sahota
 - name: Adam Jonas
   title: Advisor
-  description: Jonas has spearheaded multiple educational initiatives focused on helping contributors make an impact on bitcoin and related technologies. He previously worked as a software engineer and manager after transitioning from his former role developing the talents of professional baseball players.
+  description: Jonas has spearheaded multiple educational initiatives focused on helping contributors make an impact on Bitcoin and related technologies. He previously worked as a software engineer and manager after transitioning from his former role developing the talents of professional baseball players.
   social: "@adamcjonas"
   link: https://twitter.com/adamcjonas
   image: assets/images/Jonas.jpeg

@@ -130,7 +130,7 @@ header {
   }
 }
 
-.projects-row:first-child .text-column {
+.projects-row-first .text-column {
   padding-top: 3rem;
   border-top: 1px solid white;
 }
@@ -203,14 +203,69 @@ header {
   font-size: 0.75rem;
 }
 
+.page-intro {
+  max-width: 54rem;
+  margin-left: 20%;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+  p {
+    margin-bottom: 1.2rem;
+  }
+}
+.section-lead {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+.page-intro p.section-lead {
+  margin-bottom: 0;
+}
+.publications {
+  max-width: 54rem;
+  margin-left: 20%;
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  ul {
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+  }
+  li {
+    margin-bottom: 0.6rem;
+  }
+  a {
+    color: $yellow;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+  }
+}
+.section-lead-past {
+  max-width: 54rem;
+  margin-left: 20%;
+  margin-top: 3.5rem;
+}
+
 .jobs-container {
   margin-left: 5rem;
   margin-right: 5rem;
 }
 
-.department {
-  border-top: 1px solid white;
-  padding-top: 1rem;
+.jobs-copy {
+  margin-top: 3rem;
+  max-width: 54rem;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+  p {
+    margin-bottom: 1.2rem;
+  }
+}
+.jobs-container .jobs-copy a {
+  color: $yellow;
+  text-decoration: none;
+}
+.jobs-container .jobs-copy a:hover {
+  color: white;
 }
 
 .jobs-image {
@@ -221,24 +276,6 @@ header {
     width: 100%;
     height: auto;
   }
-}
-
-.role {
-  display: flex;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.jobs-title {
-  flex: 70%;
-}
-
-.jobs-location {
-  flex: 30%;
-}
-
-.jobs-location:hover,
-.jobs-title:hover {
-  color: $yellow;
 }
 
 .contact-row {
@@ -273,14 +310,6 @@ header {
   }
 }
 
-#first-row {
-  border-top: none;
-  border-bottom: 1px solid white;
-  padding-bottom: 2rem;
-  .about-contact {
-    color: white;
-  }
-}
 .about-icon {
   flex: 35%;
   img {
@@ -307,116 +336,6 @@ header {
   }
 }
 
-.blog-container {
-  margin-top: 10rem;
-  .archive-title {
-    margin-left: 4rem;
-  }
-  .blog-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    .blog-col {
-      flex: 0 0 100%;
-      margin-bottom: 5rem;
-      margin-right: 1rem;
-      margin-left: 1rem;
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-      .blog-category {
-        color: $yellow;
-      }
-    }
-  }
-}
-
-.post-container {
-  margin-top: 10rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  .author-name {
-    font-family: Avenir-Black;
-    font-size: 0.75rem;
-  }
-
-  .author-description {
-    font-size: 0.9rem;
-  }
-  a {
-    text-decoration: none;
-    color: $yellow;
-    transition: all 0.2s ease-in-out;
-  }
-
-  a:hover {
-    transform: scale(1.1);
-  }
-  .author-link {
-    text-decoration: none;
-    color: $yellow;
-  }
-  .author-link:hover {
-    text-decoration: none;
-    color: white;
-  }
-
-  .post-head {
-    border-bottom: 1px solid white;
-    margin-bottom: 2rem;
-    .post-back-button:hover {
-      color: white;
-    }
-    h1 {
-      margin-top: 3rem;
-      margin-bottom: 3rem;
-      font-size: 3rem;
-    }
-  }
-
-  .post-row {
-    display: flex;
-  }
-
-  .post-author {
-    flex: 20%;
-    margin-right: 4rem;
-    img {
-      height: 9rem;
-    }
-  }
-  .post-content {
-    flex: 80%;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-  .post-social {
-    color: $yellow;
-    margin-bottom: 2rem;
-    display: flex;
-    img {
-      height: 1.25rem;
-    }
-    .twitter {
-      display: flex;
-      align-items: center;
-      img {
-        margin-right: 0.5rem;
-      }
-    }
-    .facebook {
-      display: flex;
-      align-items: center;
-      padding: 1rem;
-      img {
-        margin-right: 0.25rem;
-      }
-    }
-  }
-}
 /* Responsive Design Media Queries */
 
 /*Small and Medium Phones*/
@@ -585,49 +504,18 @@ header {
         }
       }
     }
-    .projects-row:first-child .text-column {
+    .projects-row-first .text-column {
       border-top: none;
       padding-top: 0;
     }
   }
-  .projects-row:first-child {
+  .projects-row-first {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
-  .blog-container {
-    .archive-title {
-      margin-left: 1rem;
-    }
-    .blog-row {
-      .blog-col {
-        margin-bottom: 2rem;
-       .a {
-          h2 {
-            font-size: 1.3rem;
-          }
-        }
-        .blog-category {
-          margin-top: 0.5rem;
-        }
-      }
-    }
-  }
-  .post-container {
-    margin-top: 7rem;
+  .page-intro,
+  .publications,
+  .section-lead-past {
     margin-left: 0;
-    margin-right: 0;
-    .post-head {
-      h1 {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        font-size: 2rem;
-      }
-    }
-    .post-row {
-      display: block;
-      .post-author {
-        display: none;
-      }
-    }
   }
 
   .jobs-container {
@@ -636,9 +524,6 @@ header {
     margin-top: 8rem;
     h1 {
       font-size: 1.5rem;
-    }
-    .jobs-title {
-      flex: 55%;
     }
   }
 
@@ -651,11 +536,6 @@ header {
         font-size: 1rem;
         width: auto;
         margin-right: 0;
-      }
-    }
-    #first-row {
-      .about-icon {
-        flex: 35%;
       }
     }
     .contact-row {
@@ -837,55 +717,18 @@ header {
         }
       }
     }
-    .projects-row:first-child .text-column {
+    .projects-row-first .text-column {
       border-top: none;
       padding-top: 0;
     }
   }
-  .projects-row:first-child {
+  .projects-row-first {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
-  .blog-container {
-    .archive-title {
-      margin-left: 16%;
-    }
-    .blog-row {
-      .blog-col {
-        max-width: 15rem;
-        margin-bottom: 2rem;
-        h2 {
-          font-size: 1.3rem;
-        }
-        .blog-category {
-          margin-top: 0.5rem;
-        }
-      }
-      .post-title {
-        a:link {
-          text-decoration: none;
-        }
-        width: 15rem;
-      }
-    }
-  }
-
-  .post-container {
-    margin-top: 7rem;
+  .page-intro,
+  .publications,
+  .section-lead-past {
     margin-left: 0;
-    margin-right: 0;
-    .post-head {
-      h1 {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        font-size: 2rem;
-      }
-    }
-    .post-row {
-      display: block;
-      .post-author {
-        display: none;
-      }
-    }
   }
 
   .jobs-container {
@@ -894,9 +737,6 @@ header {
     margin-top: 8rem;
     h1 {
       font-size: 1.5rem;
-    }
-    .jobs-title {
-      flex: 55%;
     }
   }
 
@@ -909,11 +749,6 @@ header {
         font-size: 1rem;
         width: auto;
         margin-right: 0;
-      }
-    }
-    #first-row {
-      .about-icon {
-        flex: 35%;
       }
     }
     .contact-row {
@@ -1091,74 +926,18 @@ header {
         }
       }
     }
-    .projects-row:first-child .text-column {
+    .projects-row-first .text-column {
       border-top: none;
       padding-top: 0;
     }
   }
-  .projects-row:first-child {
+  .projects-row-first {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
-  // .blog-container {
-  //   .post-title {
-  //     width: 15rem;
-  //   }
-  //   .archive-title {
-  //     margin-left: 1rem;
-  //   }
-  //   .blog-row {
-  //     .blog-col {
-  //       max-width: 15rem;
-  //       margin-bottom: 2rem;
-  //       h2 {
-  //         font-size: 1.3rem;
-  //       }
-  //       .blog-category {
-  //         margin-top: 0.5rem;
-  //       }
-  //     }
-  //   }
-  // }
-  .blog-container {
-    .archive-title {
-      margin-left: 6%;
-    }
-    .blog-row {
-      .blog-col {
-        max-width: 15rem;
-        margin-bottom: 2rem;
-        h2 {
-          font-size: 1.3rem;
-        }
-        .blog-category {
-          margin-top: 0.5rem;
-        }
-      }
-      .post-title {
-        a:link {
-          text-decoration: none;
-        }
-        width: 15rem;
-      }
-    }
-  }
-  .post-container {
-    margin-top: 7rem;
+  .page-intro,
+  .publications,
+  .section-lead-past {
     margin-left: 0;
-    margin-right: 0;
-    .post-head {
-      h1 {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        font-size: 2rem;
-      }
-    }
-    .post-row {
-      display: block;
-      .post-author {
-        display: none;
-      }
-    }
   }
 
   .jobs-container {
@@ -1167,9 +946,6 @@ header {
     margin-top: 8rem;
     h1 {
       font-size: 1.5rem;
-    }
-    .jobs-title {
-      flex: 55%;
     }
   }
 
@@ -1182,11 +958,6 @@ header {
         font-size: 1rem;
         width: auto;
         margin-right: 0;
-      }
-    }
-    #first-row {
-      .about-icon {
-        flex: 35%;
       }
     }
     .contact-row {
@@ -1238,22 +1009,6 @@ header {
     margin-right: 0rem;
   }
 
-  .blog-container {
-    .blog-row {
-      .blog-col {
-        flex: 0 0 33%;
-      }
-    }
-    .archive-title {
-      margin-left: 16%;
-    }
-    .post-title {
-      a:link {
-        text-decoration: none;
-      }
-      width: 15rem;
-    }
-  }
   .team-container {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -1305,27 +1060,6 @@ header {
     }
   }
 
-  .blog-container {
-    .archive-title {
-      margin-left: 14%;
-    }
-    .blog-row {
-      .blog-col {
-        flex: 0 0 23%;
-      }
-    }
-    .post-title {
-      a:link {
-        text-decoration: none;
-      }
-      width: 15rem;
-    }
-  }
-  .post-container {
-    .post-author {
-      flex: 14%;
-    }
-  }
   .about-container {
     .about-row {
       .about-text {
@@ -1376,26 +1110,6 @@ header {
     }
   }
 
-  .blog-container {
-    .archive-title {
-      margin-left: 7%;
-    }
-    .blog-row {
-      .blog-col {
-        flex: 0 0 16%;
-      }
-    }
-    .post-title {
-      a:link {
-        text-decoration: none;
-      }
-      width: 15rem;
-    }
-  }
-  .post-container {
-    margin-left: 20rem;
-    margin-right: 20rem;
-  }
   .jobs-container {
     margin-left: 20rem;
     margin-right: 20rem;
