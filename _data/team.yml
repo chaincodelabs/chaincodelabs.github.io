@@ -48,13 +48,6 @@
   description: Matias is a software developer who has contributed to Bitcoin Core since 2022, focusing on bug fixes, client stability, and performance improvements across the codebase. He is particularly interested in applied mathematics and P2P network protocols. Prior to working on Bitcoin Core, he worked on several open-source projects with a primary focus on privacy research.
   image: assets/images/mfurszy.jpeg
   alt: Picture of Matias Furszyfer
-- name: Nadav Kohen
-  title: Engineer
-  description: Nadav began Bitcoin research and development in 2018 at Suredbits focusing on applications of scripting and digital signature variants to improve privacy and expressivity of Bitcoin and Lightning transactions. He contributed to the development of the Discreet Log Contract specification and was a maintainer of the bitcoin-s library.
-  social: "@nadav_kohen"
-  link: https://twitter.com/nadav_kohen
-  image: assets/images/nadav.jpeg
-  alt: Picture of Nadav Kohen
 - name: Jonathan Harvey-Buschel
   title: Engineer
   description: Jonathan discovered Bitcoin in 2014, and initially worked on protocol modifications for bandwidth-constrained environments, such as satellite links and mobile mesh networks. He previously worked at Lightning Labs, focused on the early development of the Taproot Assets protocol. Jonathan is now working on improving the P2P layer of the Lightning Network.
