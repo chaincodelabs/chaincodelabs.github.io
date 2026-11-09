@@ -44,8 +44,8 @@
   image: assets/images/antoine.jpg
   alt: Picture of Antoine Poinsot
 - name: Matias Furszyfer
-  title: Engineer
-  description: Matias is a software developer who has contributed to Bitcoin Core since 2022, focusing on bug fixes, client stability, and performance improvements across the codebase. He is particularly interested in applied mathematics and P2P network protocols. Prior to working on Bitcoin Core, he worked on several open-source projects with a primary focus on privacy research.
+  title: Security Researcher
+  description: Matias investigates vulnerabilities across the Bitcoin Core codebase, assessing their potential impact and what it would take to exploit them. His work also includes improvements to the software's reliability and performance, along with contributions to the libsecp256k1 cryptographic library. His earlier open-source work focused on privacy research.
   image: assets/images/mfurszy.jpeg
   alt: Picture of Matias Furszyfer
 - name: Jonathan Harvey-Buschel
